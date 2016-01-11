@@ -1,0 +1,165 @@
+body {
+	width: 1020px;
+	margin: 0 auto;
+	font-family: Arial;
+	background-image: url("images/stars_wallpaper.jpg");
+}
+
+.header {
+	font-family: Helvetica;
+	color: yellow;
+	text-align: center;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.picbox {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	
+	width: 300px;
+	height: 300px;
+	
+	margin: 10px;
+	padding: 10px;
+}
+
+.longcolumn {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	width: 980px;
+	margin: 10px;
+	padding: 10px;
+
+	text-align: center;
+}
+
+img {
+	width: 200px;
+	padding: 10px 10px 0px 10px;
+	margin-left: 40px;
+	max-height: 200px;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+
+
+
+
+/*TABLET VIEW*/
+@media all and (max-width: 767px) {
+	body {
+	width: 767px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.picbox {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	
+	width: 215px;
+	height: 225px;
+	
+	margin: 10px;
+	padding: 10px;
+}
+
+.longcolumn {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	width: 727px;
+	margin: 10px;
+	padding: 10px;
+
+	text-align: center;
+}
+
+img {
+	width: 150px;
+	padding: 10px 10px 0px 10px;
+	margin-left: 20px;
+	max-height: 200px;
+}
+}
+
+/*SMARTPHONE VIEW*/
+@media all and (max-width: 480px) {
+	body {
+	width: 480px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.picbox {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	
+	width: 180px;
+	height: 160px;
+	
+	margin: 15px;
+	padding: 10px;
+}
+
+.longcolumn {
+	background-color: #efefef;
+	overflow: auto; 
+	float: left;
+	width: 440px;
+	margin: 5px;
+	padding: 5px;
+
+	text-align: center;
+}
+
+img {
+	width: 100px;
+	padding: 10px 10px 0px 10px;
+	margin-left: 25px;
+	max-height: 180px;
+}
+h3 {
+	text-align: center;
+	font-size: 1em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
